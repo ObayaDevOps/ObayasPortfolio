@@ -1,10 +1,6 @@
 ## Portfolio Website For Developers 💯
 
 
-Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Manu Arora](https://manuarora.in/). The website is completely Open Source, you can use it for whatever purpose you want.
-
-[Watch Preview On Youtube](https://youtu.be/TENBgUTzwgU)
-
 # Features ⚡️
 
 - Responsive layout, works well on both Mobile and Desktop
@@ -64,4 +60,4 @@ Deployment can be done in 3 easy steps.
 
 # Support 🎁
 
-<a href="https://www.buymeacoffee.com/sujeetgund" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://www.buymeacoffee.com/afropocene" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
