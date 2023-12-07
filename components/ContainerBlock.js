@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Sujeet Gund - Student, Developer, Writer & Designer",
-    description: `I barely talk, code more! Get in touch with me to know more.`,
+    title: "Obaya Dralega - Developer, Designer, Artist, Beekeeper",
+    description: `Born to create. Born to Build`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
@@ -29,12 +29,12 @@ export default function ContainerBlock({ children, ...customMeta }) {
           href={`https://sujeetgund.vercel.app${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Sujeet Gund" />
+        <meta property="og:site_name" content="Obaya Dralega" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Sujeet_Gund" />
+        <meta name="twitter:site" content="@ObayaThe42" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -42,7 +42,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 w-full">
+      <main className="dark:tw-bg-gray-800 w-full">
         <Navbar />
         <div>{children}</div>
         <Footer />

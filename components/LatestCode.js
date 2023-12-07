@@ -12,16 +12,16 @@ export default function LatestCode({ repositories }) {
     setRepos(repositories);
   }, []);
   return (
-    <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
-      <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
+    <section className="tw-bg-[#F1F1F1] tw--mt-40 dark:tw-bg-gray-900 tw-pb-40">
+      <div className="tw-max-w-6xl tw-mx-auto">
+        <div className="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-items-center md:tw-pt-40 tw-mx-10">
+          <h1 className="tw-text-6xl lg:tw-text-9xl tw-max-w-lg tw-font-bold tw-text-gray-500 tw-my-20 md:tw-my-10 md:tw-text-gray-700 dark:tw-text-gray-600 tw-text-center lg:tw-text-left">
             Latest Code
           </h1>
 
           <a
             href={`https://github.com/${userData.githubUsername}`}
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            className="tw-mb-20 md:tw-mb-0 tw-px-8 tw-py-4 tw-rounded-md tw-bg-white tw-shadow-lg tw-text-xl tw-font-semibold tw-flex tw-flex-row tw-space-x-4 tw-items-center dark:tw-text-gray-700"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function LatestCode({ repositories }) {
           </a>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">
+      <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-8 tw-max-w-6xl tw-mx-auto tw-px-10 lg:tw--mt-10 tw-gap-y-20">
         {/* Single github Repo */}
 
         {repos &&
@@ -57,18 +57,18 @@ export default function LatestCode({ repositories }) {
 const GithubRepoCard = ({ latestRepo }) => {
   return (
     <div className="github-repo">
-      <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
+      <h1 className="tw-font-semibold tw-text-xl dark:tw-text-gray-200 tw-text-gray-700">
         {latestRepo.name}
       </h1>
-      <p className="text-base font-normal my-4 text-gray-500">
+      <p className="tw-text-base tw-font-normal tw-my-4 tw-text-gray-500">
         {latestRepo.description}
       </p>
       <a
         href={latestRepo.clone_url}
-        className="font-semibold group flex flex-row space-x-2 w-full items-center"
+        className="tw-font-semibold group tw-flex tw-flex-row tw-space-x-2 tw-w-full tw-items-center"
       >
         <p>View Repository </p>
-        <div className="transform  group-hover:translate-x-2 transition duration-300">
+        <div className="tw-transform  group-hover:tw-translate-x-2 tw-transition tw-duration-300">
           &rarr;
         </div>
       </a>

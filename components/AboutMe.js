@@ -3,21 +3,21 @@ import userData from "@constants/data";
 
 export default function AboutMe() {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+    <section className="tw-bg-white dark:tw-bg-gray-800">
+      <div className="tw-max-w-6xl tw-mx-auto tw-h-48 tw-bg-white dark:tw-bg-gray-800">
+        <h1 className=" tw-text-5xl md:tw-text-9xl tw-font-bold tw-py-10 md:tw-py-10  tw-text-center md:tw-text-left">
           About Me.
         </h1>
       </div>
-      <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
-        <div className="text-container max-w-6xl mx-auto pt-20">
+      <div className="tw-bg-[#F1F1F1] tw--mt-10 dark:tw-bg-gray-900">
+        <div className="text-container tw-max-w-6xl tw-mx-auto tw-pt-20">
           <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            className="tw-leading-loose tw-text-2xl md:tw-text-4xl tw-font-semibold  tw-mx-4"
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title} Currently working on{" "} <br />
             <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
+              className="tw-bg-red-500 tw-rounded-md tw-px-2 tw-py-1 tw-text-white"
               href={userData.about.currentProjectUrl}
             >
               {userData.about.currentProject} ✈️
@@ -25,36 +25,36 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
-        <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
+      <div className="tw-bg-[#F1F1F1] dark:tw-bg-gray-900 tw-px-4">
+        <div className="tw-pt-20 tw-grid tw-grid-cols-1 md:tw-grid-cols-3 tw-max-w-6xl tw-mx-auto tw-gap-y-20 tw-gap-x-20">
           {/* Social Buttons */}
-          <div className="inline-flex flex-col">
+          <div className="tw-inline-flex tw-flex-col">
             <div>
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+              <h1 className="tw-text-xl tw-font-semibold tw-text-gray-700 dark:tw-text-gray-200">
                 Contact
               </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
+              <p className="tw-text-lg tw-text-gray-500 tw-mt-4 dark:tw-text-gray-300">
+                For any sort of help / enquiry, shoot  me an{" "}
                 <a
                   href={`mailto:${userData.email}`}
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  className="tw-text-gray-800 tw-border-b-2 tw-border-gray-800 dark:tw-border-gray-300 tw-font-bold dark:tw-text-gray-300"
                 >
-                  mail
+                  E-mail
                 </a>{" "}
-                and I'll get back. I swear.
+                and I'll get back to you!
               </p>
             </div>
-            <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+            <div className="tw-mt-8">
+              <h1 className="tw-text-xl tw-font-semibold tw-text-gray-700 dark:tw-text-gray-200">
                 Job Opportunities
               </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
+              <p className="tw-text-lg tw-text-gray-500 tw-mt-4 dark:tw-text-gray-300">
+                I'm looking for a job currently in Stockholm, Sweden, If you see me as a good fit,
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
                   target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  className="tw-text-gray-800 tw-border-b-2 tw-border-gray-800 dark:tw-border-gray-300 tw-font-bold dark:tw-text-gray-300"
                 >
                   CV
                 </a>{" "}
@@ -65,136 +65,136 @@ export default function AboutMe() {
 
 
             {/* Social Links */}
-            <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
+            <h1 className="tw-text-xl tw-font-semibold tw-text-gray-700 tw-mt-8 dark:tw-text-gray-200">
               Social Links
             </h1>
-            <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
+            <div className="tw-mt-4 tw-ml-4">
+              <div className="tw-flex tw-flex-row tw-justify-start tw-items-center ">
                 <a
                   href={userData.socialLinks.facebook}
-                  className="flex flex-row items-center space-x-4 group"
+                  className="tw-flex tw-flex-row tw-items-center tw-space-x-4 group"
                 >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                  <div className="tw-my-4">&rarr;</div>
+                  <p className="tw-text-lg tw-text-gray-500 tw-font-mono tw-relative tw-overflow-hidden dark:tw-text-gray-300">
+                    <div className="tw-absolute tw-h-0.5 tw-w-full tw-bg-gray-400 tw-bottom-0 tw-transform tw--translate-x-24 group-hover:tw-translate-x-0 tw-transition tw-duration-300"></div>
                     Facebook
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              <div className="tw-flex tw-flex-row tw-justify-start tw-items-center">
                 <a
                   href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
+                  className="tw-flex tw-flex-row tw-items-center tw-space-x-4 group"
                 >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                  <div className="tw-my-4">&rarr;</div>
+                  <p className="tw-text-lg tw-text-gray-500 tw-font-mono tw-relative tw-overflow-hidden dark:tw-text-gray-300">
+                    <div className="tw-absolute tw-h-0.5 tw-w-full tw-bg-gray-400 tw-bottom-0 tw-transform tw--translate-x-24 group-hover:tw-translate-x-0 tw-transition tw-duration-300"></div>
                     Twitter
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              <div className="tw-flex tw-flex-row tw-justify-start tw-items-center">
                 <a
                   href={userData.socialLinks.github}
-                  className="flex flex-row items-center space-x-4 group"
+                  className="tw-flex tw-flex-row tw-items-center tw-space-x-4 group"
                 >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                  <div className="tw-my-4">&rarr;</div>
+                  <p className="tw-text-lg tw-text-gray-500 tw-font-mono tw-relative tw-overflow-hidden dark:tw-text-gray-300">
+                    <div className="tw-absolute tw-h-0.5 tw-w-full tw-bg-gray-400 tw-bottom-0 tw-transform tw--translate-x-24 group-hover:tw-translate-x-0 tw-transition tw-duration-300"></div>
                     GitHub
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              <div className="tw-flex tw-flex-row tw-justify-start tw-items-center">
                 <a
                   href={userData.socialLinks.linkedin}
-                  className="flex flex-row items-center space-x-4 group"
+                  className="tw-flex tw-flex-row tw-items-center tw-space-x-4 group"
                 >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                  <div className="tw-my-4">&rarr;</div>
+                  <p className="tw-text-lg tw-text-gray-500 tw-font-mono tw-relative tw-overflow-hidden dark:tw-text-gray-300">
+                    <div className="tw-absolute tw-h-0.5 tw-w-full tw-bg-gray-400 tw-bottom-0 tw-transform tw--translate-x-24 group-hover:tw-translate-x-0 tw-transition tw-duration-300"></div>
                     LinkedIn
                   </p>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              <div className="tw-flex tw-flex-row tw-justify-start tw-items-center">
                 <a
-                  href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
+                  href={userData.socialLinks.instagram}
+                  className="tw-flex tw-flex-row tw-items-center tw-space-x-4 group"
                 >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                  <div className="tw-my-4">&rarr;</div>
+                  <p className="tw-text-lg tw-text-gray-500 tw-font-mono tw-relative tw-overflow-hidden dark:tw-text-gray-300">
+                    <div className="tw-absolute tw-h-0.5 tw-w-full tw-bg-gray-400 tw-bottom-0 tw-transform tw--translate-x-28 group-hover:tw-translate-x-0 tw-transition tw-duration-300"></div>
                     Instagram
                   </p>
                 </a>
               </div>
             </div>
 
-            <a href="https://www.buymeacoffee.com/sujeetgund" target="_blank" rel="noreferrer"><img className="p-5" src="/buy-me-a-coffee.png" alt="Buy Me A Coffee" height="48" width="180" /></a>
+            <a href="https://www.buymeacoffee.com/afropocene" target="_blank" rel="noreferrer"><img className="tw-p-5" src="/buy-me-a-coffee.png" alt="Buy Me A Coffee" height="48" width="180" /></a>
           </div>
           {/* Text area */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="tw-col-span-1 md:tw-col-span-2">
             {userData.about.description?.map((desc, idx) => (
               <p
                 key={idx}
-                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+                className="tw-text-xl tw-text-gray-700 tw-mb-4 dark:tw-text-gray-300 "
               >
                 {desc}
               </p>
             ))}
 
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="tw-bg-red-500 tw-text-3xl tw-rounded-md tw-px-2 tw-py-1 tw-inline-block tw-font-bold tw-text-gray-50">
               Tech Stack
             </h1>
-            <div className="flex flex-row flex-wrap mt-8">
+            <div className="tw-flex tw-flex-row tw-flex-wrap tw-mt-8">
               <img
                 src="tech stack/html-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/css-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/js-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/ts-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/git-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/react-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/nextjs-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/firebase-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/strapi-logo.webp"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/mongodb-logo.webp"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/sanity-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
               <img
                 src="tech stack/python-logo.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="tw-h-20 tw-w-20 tw-mx-4 tw-my-4"
               />
             </div>
           </div>

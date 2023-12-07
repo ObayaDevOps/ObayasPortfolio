@@ -5,32 +5,32 @@ import { FaMailchimp } from 'react-icons/fa'
 export default function Contact() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+      <div className="tw-max-w-6xl tw-mx-auto tw-h-48 tw-bg-white dark:tw-bg-gray-800 tw-antialiased">
+        <h1 className=" tw-text-5xl md:tw-text-9xl tw-font-bold tw-py-10 tw-text-center md:tw-text-left">
           Contact
         </h1>
       </div>
-      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="md:ml-4">
+      <div className="tw-relative tw-z-10 tw-rounded-md tw-shadow-md tw-bg-[#02044A] tw-p-4 md:tw-p-10 lg:tw-p-20 tw-max-w-6xl tw-mx-auto tw-mb-20 tw--mt-4">
+        <div className="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-4">
+          <div className="md:tw-ml-4">
             <header className="">
-              <h1 className="text-gray-50 font-semibold text-2xl md:text-3xl">
+              <h1 className="tw-text-gray-50 tw-font-semibold tw-text-3xl md:tw-text-4xl tw-pt-20 md:tw-pt-0">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-xs text-gray-200 mt-2">
+              <p className="tw-font-light tw-text-xl tw-text-gray-200 tw-mt-2">
                 Contact me with Mailchimp and I'll get back to you as soon as I can.
               </p>
             </header>
 
             {/* phone, email, address */}
-            <div className="icons-container inline-flex flex-col my-10">
-              <div className="cursor-pointer flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+            <div className="tw-icons-container tw-inline-flex tw-flex-col tw-my-10">
+              <div className="tw-cursor-pointer tw-flex tw-flex-row tw-items-center tw-space-x-6 tw-rounded-md tw-border tw-border-[#02044A] hover:tw-border hover:tw-border-blue-500 tw-p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  className="bi bi-telephone-fill h-4 w-4 text-blue-500"
+                  className="bi bi-telephone-fill tw-h-4 tw-w-4 tw-text-blue-500"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -38,52 +38,52 @@ export default function Contact() {
                     d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
                   />
                 </svg>
-                <a href={`tel://${userData.phone.trim()}`} className="text-gray-50 font-light text-sm">
+                <a href={`tel://${userData.phone.trim()}`} className="tw-text-gray-50 tw-font-light tw-text-sm">
                   {userData.phone}
                 </a>
               </div>
-              <div className="cursor-pointer flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="tw-cursor-pointer tw-flex tw-flex-row tw-items-center tw-space-x-6 tw-rounded-md tw-border tw-border-[#02044A] hover:tw-border hover:tw-border-blue-500 tw-p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  className="bi bi-envelope-fill h-4 w-4 text-blue-500"
+                  className="bi bi-envelope-fill tw-h-4 tw-w-4 tw-text-blue-500"
                   viewBox="0 0 16 16"
                 >
                   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
                 </svg>
-                <a href={`mailto://${userData.email}`} className="text-gray-50 font-light text-sm">
+                <a href={`mailto://${userData.email}`} className="tw-text-gray-50 tw-font-light tw-text-sm">
                   {userData.email}
                 </a>
               </div>
-              <div className="cursor-pointer flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
+              <div className="tw-cursor-pointer tw-flex tw-flex-row tw-items-center tw-space-x-6 tw-rounded-md tw-border tw-border-[#02044A] hover:tw-border hover:tw-border-blue-500 tw-p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  className="bi bi-pin-fill h-4 w-4 text-blue-500"
+                  className="bi bi-pin-fill tw-h-4 tw-w-4 tw-text-blue-500"
                   viewBox="0 0 16 16"
                 >
                   <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354z" />
                 </svg>
-                <p className="text-gray-50 font-light text-sm">
+                <p className="tw-text-gray-50 tw-font-light tw-text-sm">
                   {userData.address}
                 </p>
               </div>
             </div>
 
             {/* social media */}
-            <div className="social-icons flex flex-row space-x-8">
+            <div className="social-icons tw-flex tw-flex-row tw-space-x-8">
               <a
                 href={userData.socialLinks.facebook}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                className="tw-h-10 tw-w-10 tw-rounded-full hover:tw-bg-blue-500 tw-flex tw-items-center tw-justify-center tw-cursor-pointer"
               >
                 <svg
                   width="24"
                   height="24"
-                  className="text-gray-50"
+                  className="tw-text-gray-50"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -96,12 +96,12 @@ export default function Contact() {
               </a>
               <a
                 href={userData.socialLinks.twitter}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                className="tw-h-10 tw-w-10 tw-rounded-full hover:tw-bg-blue-500 tw-flex tw-items-center tw-justify-center tw-cursor-pointer"
               >
                 <svg
                   width="24"
                   height="24"
-                  className="text-gray-50"
+                  className="tw-text-gray-50"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -116,12 +116,12 @@ export default function Contact() {
               </a>
               <a
                 href={userData.socialLinks.instagram}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                className="tw-h-10 tw-w-10 tw-rounded-full hover:tw-bg-blue-500 tw-flex tw-items-center tw-justify-center tw-cursor-pointer"
               >
                 <svg
                   width="24"
                   height="24"
-                  className="text-gray-50"
+                  className="tw-text-gray-50"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -147,38 +147,38 @@ export default function Contact() {
 
               {/* Mailchimp Contact Button */}
               <div>
-                <a href="https://us14.list-manage.com/contact-form?u=ccd7e756f9dc75821ae310866&form_id=7b06c556cdfe5559405c01eeded2454b" target='_blank' rel="noreferrer" className="w-full flex items-center justify-center px-4 py-2 bg-yellow-500 text-md rounded-full hover:bg-yellow-600">
+                <a href="https://us14.list-manage.com/contact-form?u=ccd7e756f9dc75821ae310866&form_id=7b06c556cdfe5559405c01eeded2454b" target='_blank' rel="noreferrer" className="tw-w-full tw-flex tw-items-center tw-justify-center tw-px-4 tw-py-2 tw-bg-yellow-500 text-md tw-rounded-full hover:tw-bg-yellow-600">
                   <FaMailchimp />
-                  <span className="font-medium mx-2 whitespace-nowrap text-sm lg:text-lg">Contact Me</span>
+                  <span className="tw-font-medium tw-mx-2 tw-whitespace-nowrap tw-text-sm lg:tw-text-lg">Contact Me</span>
                 </a>
               </div>
             </div>
           </div>
 
 
-          <form action={`https://formsubmit.co/${userData.email}`} method="POST" className="form rounded-lg bg-white p-4 flex flex-col">
-            <label htmlFor="name" className="text-sm text-gray-600 mx-4">
+          <form action={`https://formsubmit.co/${userData.email}`} method="POST" className="form tw-rounded-lg tw-bg-white tw-p-4 tw-flex tw-flex-col">
+            <label htmlFor="name" className="tw-text-sm tw-text-gray-600 tw-mx-4">
               {" "}
               Your Name
             </label>
             <input
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="tw-font-light tw-rounded-md tw-border focus:tw-outline-none tw-py-2 tw-mt-2 tw-px-1 tw-mx-4 focus:tw-ring-2 focus:tw-border-none tw-ring-blue-500"
               name="name"
               required
             />
-            <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
+            <label htmlFor="email" className="tw-text-sm tw-text-gray-600 tw-mx-4 tw-mt-4">
               Email
             </label>
             <input
               type="email"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="tw-font-light tw-rounded-md tw-border focus:tw-outline-none tw-py-2 tw-mt-2 tw-px-1 tw-mx-4 focus:tw-ring-2 focus:tw-border-none tw-ring-blue-500"
               name="email"
               required
             />
             <label
               htmlFor="message"
-              className="text-sm text-gray-600 mx-4 mt-4"
+              className="tw-text-sm tw-text-gray-600 tw-mx-4 tw-mt-4"
             >
               Message
             </label>
@@ -186,16 +186,16 @@ export default function Contact() {
               rows="6"
               type="text"
               style={{ resize: "none" }}
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="tw-font-light tw-rounded-md tw-border focus:tw-outline-none tw-py-2 tw-mt-2 tw-px-1 tw-mx-4 focus:tw-ring-2 focus:tw-border-none tw-ring-blue-500"
               name="message"
               required
-            ></textarea>
+            ></textarea>message
             <input type="hidden" name="_subject" value="Message from Website!"/>
             <input type="hidden" name="_captcha" value="false"/>
             <input type="hidden" name="_next" value={`https://sujeetgund.vercel.app/contact`} />
             <button
               type="submit"
-              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+              className="tw-bg-blue-500 tw-rounded-md tw-w-1/2 tw-mx-4 tw-mt-8 tw-py-2 tw-text-gray-50 tw-text-xs tw-font-bold"
             >
               Send Message
             </button>

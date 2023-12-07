@@ -9,7 +9,7 @@ const progress = new ProgressBar({
   size: 4,
   color: "#FE595E",
   className: "z-50",
-  delay: 100,
+  delay: 10,
 });
 
 Router.events.on("routeChangeStart", progress.start)
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="light" attribute="class">
       <Head>
-        <link rel="shortcut icon" href="/favicon.jpg" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
       </Head>
       <Component {...pageProps} />
     </ThemeProvider>

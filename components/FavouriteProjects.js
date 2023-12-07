@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function FavouriteProjects() {
   return (
-    <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
-      <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
+    <div className="tw-bg-[#F1F1F1] -tw-mt-40 dark:tw-bg-gray-900">
+      <div className="tw-max-w-6xl tw-mx-auto">
+        <header className="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-items-center tw-pt-40 tw-mx-10 md:tw-my-20 lg:tw-my-0">
+          <h1 className="tw-text-6xl lg:tw-text-9xl tw-max-w-lg tw-font-bold tw-text-gray-500 tw-my-20 md:tw-my-20 md:tw-text-gray-700 dark:tw-text-gray-600 tw-text-center">
             Favourite Projects
           </h1>
           <Link href="/projects">
-            <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
+            <a className="tw-mb-20 md:tw-mb-0 tw-px-8 tw-py-4 tw-rounded-md tw-bg-white tw-shadow-lg tw-text-xl tw-font-semibold tw-flex tw-flex-row tw-space-x-4 tw-items-center dark:tw-text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -32,48 +32,47 @@ export default function FavouriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="tw-grid md:tw-grid-cols-3 tw-gap-8 lg:-tw-mt-8 tw-pb-40">
 
 
           {/* Single card */}
           <a
-            href="https://medium-sanity-woad.vercel.app/"
-            className="w-full block col-span-3 shadow-2xl"
-            title="Medium Clone"
+            href="https://www.afropocene.com/"
+            className="tw-w-full tw-block tw-col-span-3 tw-shadow-2xl"
+            title="Afropocene StudioLab"
           >
-            <div className="relative overflow-hidden">
+            <div className="tw-relative tw-overflow-hidden">
               <img
-                src="projects/medium.png"
+                src="projects/afropocene.png"
                 alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                className="tw-transform hover:tw-scale-125 tw-transition tw-duration-2000 tw-ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Medium Clone
+              <h1 className="tw-absolute tw-top-10 tw-left-10 tw-text-gray-50 tw-font-bold tw-text-xl tw-bg-red-500 tw-rounded-md tw-px-2">
+              Afropocene StudioLab
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="tw-absolute tw-bottom-10 tw-left-10 tw-text-gray-50 tw-font-bold tw-text-xl">
                 01
               </h1>
             </div>
           </a>
 
 
-          {/* Single card */}
           <a
-            href="https://hulu-clone-2832.vercel.app/"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
-            title="Hulu Clone"
+            href="https://www.taxedgeadvisory.co.uk/"
+            className="tw-w-full tw-block tw-col-span-3  sm:tw-col-span-2 tw-shadow-2xl"
+            title="Dralega Web Operations"
           >
-            <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+            <div className="tw-relative tw-overflow-hidden">
+              {/* <div className="overlay tw-absolute tw-inset-0 tw-bg-black tw-bg-opacity-70 tw-z-10"></div> */}
               <img
-                src="projects/hulu.png"
-                alt="Hulu Clone Project"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                src="projects/DralegaWebOps.png"
+                alt="Dralega Web Operations"
+                className="tw-transform hover:tw-scale-125 tw-transition tw-duration-2000 tw-ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Hulu Clone
+              <h1 className="tw-absolute tw-top-10 tw-left-10 tw-text-gray-50 tw-font-bold tw-text-xl tw-bg-red-500 tw-rounded-md tw-px-2">
+              Dralega Web Operations
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="tw-absolute tw-bottom-10 tw-left-10 tw-text-gray-50 tw-font-bold tw-text-xl">
                 02
               </h1>
             </div>
@@ -82,25 +81,30 @@ export default function FavouriteProjects() {
 
           {/* Single card */}
           <a
-            href="https://airbnb-clone-sujeetag04.vercel.app/"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
-            title="Airbnb Clone"
+            href="https://www.taxedgeadvisory.co.uk/"
+            className="tw-w-full tw-block tw-col-span-3 sm:tw-col-span-1  tw-object-cover"
+            title="Tax Edge Advisory"
           >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+            <div className="tw-relative tw-overflow-hidden">
+              {/* <div className="overlay tw-absolute tw-inset-0 tw-bg-black tw-bg-opacity-70 tw-z-10"></div> */}
               <img
-                src="projects/airbnb.png"
-                alt="Airbnb Clone Project"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+                src="projects/TaxEdge.png"
+                alt="Hulu Clone Project"
+                className="tw-transform hover:tw-scale-125 tw-transition tw-duration-2000 tw-ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Airbnb Clone
+              <h1 className="tw-absolute tw-top-10 tw-left-10 tw-text-gray-50 tw-font-bold tw-text-xl tw-bg-red-500 tw-rounded-md tw-px-2">
+              Tax Edge Advisory
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="tw-absolute tw-bottom-10 tw-left-10 tw-text-gray-50 tw-font-bold tw-text-xl">
                 03
               </h1>
             </div>
           </a>
+
+
+
+
+          
         </div>
       </div>
     </div>
